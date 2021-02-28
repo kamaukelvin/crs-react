@@ -1,0 +1,71 @@
+.next__btn, .next__btn:hover{
+    background: #35A19E !important;
+    border-color: #35A19E !important;
+    padding: 0 40px;
+
+}
+.prev__btn:hover{
+    background: #35A19E !important;
+    border-color: #35A19E !important;
+    color: #fff;
+    padding: 0 40px;
+}
+.ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon{
+    color:#28a745 !important
+}
+.ant-steps-item-custom.ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon{
+    color:#35A19E !important
+}
+.ant-btn-success, .ant-btn-success:hover{
+    background:#28a745 !important;
+    border-color: #28a745 !important;
+    color: #fff
+
+}
+.ant-steps-item-icon, .ant-steps-item-content {
+    vertical-align: middle !important;
+}
+input[type="text"], input[type="password"], input[type="number"], textarea {
+    background: #F3F4F9;
+}
+.ant-form-vertical .ant-form-item-label > label {
+    color: #7B8794;
+    font-size: 12px;
+}
+.ant-input:hover,.ant-input:focus, .ant-input-focused {
+    border-color: #35A19E !important;
+    box-shadow: none;
+}
+.serial{
+    color:#0A0A0A;
+    font-size:16px;
+    font-weight: 600;
+    text-transform: uppercase
+}
+.serial>span{
+    font-size:20px;
+}
+.image__preview{
+    background-position:center;
+     height:550px;
+      background-size:cover;
+       background-repeat:no-repeat;
+       position:relative;
+}
+.zoom__bar{
+    position: absolute;
+    bottom:0;
+    left:0;
+    height:40px;
+    background:#35A19E;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+
+}
+.zoom__bar .anticon{
+    color:#FFF;
+    font-size: 18px;
+    margin:0 10px;
+}

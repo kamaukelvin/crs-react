@@ -1,0 +1,15 @@
+.placeholder__list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+  }
+  .placeholder__list li{
+    font-weight: bold;
+    
+  }
+  .placeholder__list li:before {
+   content: '✓'; 
+   color:#35A19E;
+   margin-right: 10px;
+  }
